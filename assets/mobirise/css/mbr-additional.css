@@ -1271,8 +1271,8 @@ section.lazy-placeholder:after {
   color: #073b4c;
 }
 .cid-s9Msy965Mv {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 45px;
   background-color: #efefef;
 }
 .cid-s9Msy965Mv p {
@@ -1343,8 +1343,13 @@ section.lazy-placeholder:after {
   }
 }
 .cid-s9Msy965Mv H2 {
-  text-align: left;
+  text-align: center;
   color: #149dcc;
+}
+@media (max-width: 767px) {
+  .cid-s9Msy965Mv #hideonmobile1 {
+    display: none;
+  }
 }
 .cid-s9F2NDHGez {
   padding-top: 90px;
